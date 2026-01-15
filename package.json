@@ -1,0 +1,49 @@
+{
+  "name": "@10xly/is-instance-of",
+  "version": "1.0.0",
+  "description": "Check if something's an instance of something.",
+  "keywords": [
+    "instance",
+    "10x",
+    "of"
+  ],
+  "homepage": "https://github.com/enterprise-npm-ai/is-instance-of#readme",
+  "bugs": {
+    "url": "https://github.com/enterprise-npm-ai/is-instance-of/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/enterprise-npm-ai/is-instance-of.git"
+  },
+  "license": "MIT",
+  "author": "me",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "dependencies": {
+    "@10xly/strict-equals": "^1.0.0",
+    "@extremejs/utils": "^1.0.0-beta.22",
+    "@flatten/array": "^1.1.8",
+    "@is-(unknown)/is-function": "^1.0.0",
+    "@stdlib/array-ctors": "^0.3.0",
+    "arrify": "^2.0.1",
+    "case-insensitive": "^1.0.0",
+    "class-chain": "^1.0.0",
+    "es-logical-and-operator": "^1.0.0",
+    "es-logical-not-operator": "^1.0.0",
+    "es-logical-or-operator": "^1.0.0",
+    "es-typeof": "^1.0.0",
+    "false-value": "^2.0.6",
+    "immediate-error": "^11.0.1",
+    "is-obj": "^2.0.0",
+    "isarray": "^2.0.5",
+    "qfn": "^1.0.1",
+    "support-bind-operator": "^1.0.1",
+    "switch-in-fp": "^3.0.0"
+  },
+  "devDependencies": {
+    "mocha": "^11.7.5"
+  }
+}
